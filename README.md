@@ -15,7 +15,7 @@ O jogador poderá escolher entre 3 dificuldades, sendo elas:
 - Médio = 10 tentativas.
 - Difícil = 5 tentativas.
 
-A cada tentativa do jogador, o computador irá informar se o número chutado pelo jogador é maior ou menor que o número escolhido por ele.
+A cada tentativa do jogador, o computador irá informar se o número chutado pelo jogador é maior ou menor que o número escolhido por ele, diminuindo o seu saldo de pontos que se inicia em 1000.
 
 ---
 ## Entrada
@@ -27,6 +27,7 @@ Os jogadores são solicitados a inserir um número por vez através do console.
 
 - __Escolha de Número Secreto__: Um número é escolhido aleatoriamente no início de cada jogo.
 - __Dicas__: A cada tentativa do jogador, uma mensagem informando se o número chutado é maior ou menor que o número escolhido aparecerá no console.
+- __Contagem de Pontos__: O jogo acompanha o número de pontos do jogador, diminuindo a cada erro.
 - __Contagem de Erros__: O jogo acompanha o número de tentativas restantes do jogador e termina quando o máximo permitido é alcançado.
 
 ---
